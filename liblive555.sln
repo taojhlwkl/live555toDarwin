@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "live555", "liblive555.vcxproj", "{61A556A3-1B1F-41A9-945C-9D57EC86ACDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testProgs", "testProgs\testProgs.vcxproj", "{76DC116D-D325-42E3-BF45-EA6E717BB823}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61A556A3-1B1F-41A9-945C-9D57EC86ACDD} = {61A556A3-1B1F-41A9-945C-9D57EC86ACDD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61A556A3-1B1F-41A9-945C-9D57EC86ACDD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61A556A3-1B1F-41A9-945C-9D57EC86ACDD}.Debug|Win32.Build.0 = Debug|Win32
+		{61A556A3-1B1F-41A9-945C-9D57EC86ACDD}.Release|Win32.ActiveCfg = Release|Win32
+		{61A556A3-1B1F-41A9-945C-9D57EC86ACDD}.Release|Win32.Build.0 = Release|Win32
+		{76DC116D-D325-42E3-BF45-EA6E717BB823}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76DC116D-D325-42E3-BF45-EA6E717BB823}.Debug|Win32.Build.0 = Debug|Win32
+		{76DC116D-D325-42E3-BF45-EA6E717BB823}.Release|Win32.ActiveCfg = Release|Win32
+		{76DC116D-D325-42E3-BF45-EA6E717BB823}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
